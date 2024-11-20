@@ -3,7 +3,7 @@
     <p>© 2024 Mon Site - Tous droits réservés</p>
     <ul class="social-links">
       <li><a href="https://linkedin.com" target="_blank"><img src="@/assets/linkedin-logo.png" alt="LinkedIn" style="width: 20px; height: 20px; vertical-align: middle; margin-bottom: 5px;"/> LinkedIn</a></li>
-      <li><a href="https://github.com" target="_blank"><img src="@/assets/github-logo.png" alt="GitHub" style="width: 20px; height: 20px; vertical-align: middle; margin-bottom: 5px;"/> GitHub</a></li>
+      <li><a href="https://github.com/AlexiFon" target="_blank"><img src="@/assets/github-logo.png" alt="GitHub" style="width: 20px; height: 20px; vertical-align: middle; margin-bottom: 5px;"/> GitHub</a></li>
     </ul>
   </footer>
 </template>
