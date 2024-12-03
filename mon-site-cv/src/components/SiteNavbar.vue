@@ -35,18 +35,20 @@ ul {
   padding: 0;
   margin: 0;
   width: 100%;
+  margin-top: 100px;
 }
 
 li {
   margin: 1rem 0;
   text-align: center;
   width: 100%;
+  padding: 5px 0;
 }
 
 .nav-link {
   text-decoration: none;
   color: white;
-  font-size: 1.2rem;
+  font-size: 25px;
   transition: color 0.3s ease;
   display: block;
   padding: 0.5rem 0;
