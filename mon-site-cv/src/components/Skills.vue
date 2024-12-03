@@ -42,7 +42,7 @@ export default {
             hoveredSkill: null,
             skills: [
                 {
-                    name: "SQL ORACLE",
+                    name: "Sql Oracle",
                     level: 4,
                     logo: require('@/assets/sqloracle.png'),
                     associatedProjects: [
@@ -50,6 +50,54 @@ export default {
                             id: 2,
                             title: "Gestion de Base de Données",
                             description: "Projet SQL avancé utilisant des triggers, des vues et des procédures stockées"
+                        }
+                    ]
+                },
+                {
+                    name: "Vue.js",
+                    level: 4.5,
+                    logo: require('@/assets/vuejs.png'),
+                    associatedProjects: [
+                        {
+                            id: 1,
+                            title: "Site Web Portfolio",
+                            description: "Portfolio moderne développé avec Vue.js et Tailwind CSS"
+                        }
+                    ]
+                },
+                {
+                    name: "JavaScript",
+                    level: 4,
+                    logo: require('@/assets/javascript.png'),
+                    associatedProjects: [
+                        {
+                            id: 3,
+                            title: "Application Web Interactive",
+                            description: "Projet démontrant des compétences avancées en JavaScript"
+                        }
+                    ]
+                },
+                {
+                    name: "Vue.js",
+                    level: 4.5,
+                    logo: require('@/assets/vuejs.png'),
+                    associatedProjects: [
+                        {
+                            id: 1,
+                            title: "Site Web Portfolio",
+                            description: "Portfolio moderne développé avec Vue.js et Tailwind CSS"
+                        }
+                    ]
+                },
+                {
+                    name: "JavaScript",
+                    level: 4,
+                    logo: require('@/assets/javascript.png'),
+                    associatedProjects: [
+                        {
+                            id: 3,
+                            title: "Application Web Interactive",
+                            description: "Projet démontrant des compétences avancées en JavaScript"
                         }
                     ]
                 },
@@ -108,10 +156,10 @@ export default {
 }
 
 h2 {
-    text-align: center;
-    margin-bottom: 20px;
-    font-size: 2rem;
-    color: #34495e;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-weight: bold;
 }
 
 .skill-logo {
@@ -136,7 +184,8 @@ h2 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 30px;
+    margin-top: 40px;
 }
 
 .skill-bubble {
