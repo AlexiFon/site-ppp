@@ -1,8 +1,10 @@
 <template>
   <div id="app">
     <SiteNavbar />
-    <SiteHeader />
-    <router-view />
+    <div id="content">
+      <SiteHeader v-if="isHomePage" />
+      <router-view />
+    </div>    
     <SiteFooter />
   </div>
 </template>
@@ -18,9 +20,16 @@ export default {
     SiteNavbar,
     SiteHeader,
     SiteFooter
+  },
+  computed: {
+    // Vérifier si la route actuelle est la route d'accueil ('/')
+    isHomePage() {
+      return this.$route.path === '/'
+    }
   }
 }
 </script>
+
 
 <style >
 
@@ -41,5 +50,9 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+}
+
+#content {
+  margin-left: 250px;
 }
 </style>

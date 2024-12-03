@@ -1,14 +1,16 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Home from '../views/Home.vue'
-import Experience from '../views/Experience.vue'
-import Skills from '../views/Skills.vue'
-import Contact from '../views/Contact.vue'
+import HomePage from '../components/Home.vue'
+import ExperiencePage from '../components/Experience.vue'
+import SkillsPage from '../components/Skills.vue'
+import ContactPage from '../components/Contact.vue'
+import ProjectPage from '../components/Projects.vue'
 
 const routes = [
-  { path: '/', component: Home },
-  { path: '/experience', component: Experience },
-  { path: '/skills', component: Skills },
-  { path: '/contact', component: Contact }
+  { path: '/', component: HomePage },
+  { path: '/experience', component: ExperiencePage },
+  { path: '/skills', component: SkillsPage },
+  { path: '/contact', component: ContactPage },
+  { path: '/project', component: ProjectPage}
 ]
 
 const router = createRouter({
